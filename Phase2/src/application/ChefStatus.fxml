@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Label fx:id="pizzaType" layoutX="105.0" layoutY="58.0" />
+      <Label layoutX="28.0" layoutY="58.0" text="Pizza Type:" />
+      <Label layoutX="28.0" layoutY="90.0" text="Toppings: " />
+      <Label fx:id="topping1" layoutX="105.0" layoutY="90.0" />
+      <Label fx:id="topping2" layoutX="105.0" layoutY="118.0" />
+      <Button fx:id="cooking" layoutX="135.0" layoutY="314.0" mnemonicParsing="false" onAction="#Cooking" text="Set Status to COOKING" />
+      <Button fx:id="ready" layoutX="349.0" layoutY="315.0" mnemonicParsing="false" onAction="#Ready" text="Set Status to READY" />
+      <Label layoutX="31.0" layoutY="210.0" text="Pick up Time: " />
+      <Label fx:id="pickupTime" layoutX="105.0" layoutY="205.0" prefHeight="26.0" prefWidth="48.0" />
+      <Label fx:id="topping3" layoutX="105.0" layoutY="146.0" />
+      <Label fx:id="topping4" layoutX="105.0" layoutY="172.0" />
+      <Button fx:id="refresh" layoutX="451.0" layoutY="105.0" mnemonicParsing="false" onAction="#displayOrderForChef" text="Refresh" />
+      <Label layoutX="421.0" layoutY="67.0" text="Refresh to View Order" />
+      <Label layoutX="28.0" layoutY="31.0" text="Order #:" />
+      <Label fx:id="orderNum" layoutX="94.0" layoutY="31.0" prefHeight="17.0" prefWidth="5.0" />
+      <Button fx:id="sendEmail" layoutX="273.0" layoutY="350.0" mnemonicParsing="false" onAction = "#changeToFinalScene" text="Send Email" />
+   </children>
+</AnchorPane>
