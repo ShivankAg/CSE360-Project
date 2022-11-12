@@ -9,8 +9,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
    <children>
-      <Label layoutX="53.0" layoutY="70.0" text="Select Pizza Type:" />
-      <ChoiceBox fx:id="pizzaType" layoutX="189.0" layoutY="66.0" prefWidth="150.0" />
+      <Label layoutX="53.0" layoutY="90.0" text="Select Pizza Type:" />
+      <ChoiceBox fx:id="pizzaType" layoutX="190.0" layoutY="86.0" prefWidth="150.0" />
       <Label layoutX="41.0" layoutY="143.0" text="Select Pizza Toppings:" />
       <CheckBox fx:id="mushrooms" layoutX="189.0" layoutY="143.0" mnemonicParsing="false" text="Mushrooms" />
       <Label layoutX="48.0" layoutY="287.0" text="Select Pickup Time:" />
@@ -19,5 +19,10 @@
       <CheckBox fx:id="extraCheese" layoutX="189.0" layoutY="229.0" mnemonicParsing="false" text="Extra Cheese" />
       <TextField fx:id="time" layoutX="190.0" layoutY="283.0" promptText="00:00" />
       <Button fx:id="placeOrder" layoutX="261.0" layoutY="344.0" mnemonicParsing="false" onAction="#placeOrderClicked" text="Place Order" />
+      <Label layoutX="422.0" layoutY="134.0" text="If you already placed an order," />
+      <Button layoutX="460.0" layoutY="166.0" mnemonicParsing="false" onAction="#checkStatusClicked" text="Check Status" />
+      <Label layoutX="57.0" layoutY="33.0" text="Enter Asurite Id:" />
+      <TextField fx:id="username" layoutX="187.0" layoutY="29.0" promptText="asurite@asu.edu" />
+      <Label fx:id="yourOrderNum" layoutX="205.0" layoutY="320.0" />
    </children>
 </AnchorPane>
