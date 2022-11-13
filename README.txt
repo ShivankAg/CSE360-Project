@@ -3,6 +3,12 @@
 
 Welcome to the READme page for our pizza delivery app project. This is our submission for the phase 3 class project of CSE 360.
 
+How to run:
+In order to run this project, you must import it into Eclipse as a project alongside the JavaFX dependencies. 
+Exact instructions on how to set it up are in the "TA-Help" folder on Canvas.
+
+Project Functionality:
+
 Our projects functionality surrounds the world of digitizing certain kinds of businesses completely which makes it a sustainable application.
 
 The coding language that will be used when creating this software is Java/JavaFx. We will not be using anything else when making this software.
